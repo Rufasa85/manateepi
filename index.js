@@ -17,7 +17,7 @@ var db = require('./models');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
-    origin:process.env.ACCESS_URL,
+    origin:"https://rufasa85.github.io",
     credentials:true
 }));
 
